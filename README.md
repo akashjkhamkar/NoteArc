@@ -1,7 +1,11 @@
 <img src="/app/src/main/ic_launcher-playstore.png" alt="logo" width="200"/>
 
 # NoteArc
-A minimalistic guitar tuner and pitch detector
+#### A minimalistic guitar tuner and pitch detector
+
+
+this project is my first android app and the submission for cs50 2020.
+thank you david and tommy !
 
 created using 
  - [TarsosDsp](https://github.com/JorenSix/TarsosDSP) (TarsosDSP is a Java library for audio processing)  .
@@ -12,7 +16,10 @@ created using
  - Note detection , so that you can do other tunings aswell.
  - frequency detection , using which tuning can be more accurate.
  - minimalistic simple ui . 
+ 
+ <img src="1.png" alt="1" width="200"/>  <img src="2.png" alt="2" width="200"/>  <img src="3.png" alt="3" width="200"/>
 # working
+ <img src="home.png" alt="1" width="300"/>  
 Let's start with some really basic introduction to music theory and guitars. But at first we have to define some important musical terms as an exact distinction will avoid some ambiguities:
 
 1. The  **frequency**  is defined as the reciprocal of the period duration of an repeating event. For example, if we have a sinusoidal signal with a period length of 2ms, the frequency is 500Hz.
