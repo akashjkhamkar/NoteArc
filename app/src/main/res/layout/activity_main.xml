@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_marginTop="100dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/pitch_div">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/current"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="current" />
+
+            <TextView
+                android:id="@+id/pitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:text="---"
+                android:textSize="28dp"/>
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="  |  "
+            android:textSize="28dp"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/standard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="standard" />
+
+            <TextView
+                android:id="@+id/target_pitch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textColor="@color/colorAccent"
+                android:text="---"
+                android:textSize="28dp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/note"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pitch_div"
+        android:layout_marginTop="28dp"
+        android:gravity="center"
+        android:text="---"
+        android:textSize="40dp" />
+
+    <TextView
+        android:id="@+id/note_sub"
+
+        android:layout_width="match_parent"
+
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pitch_div"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:textSize="30dp" />
+
+
+    <Button
+        android:id="@+id/menu_button"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_below="@id/note"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="63dp"
+        android:gravity="center"
+        android:textSize="38dp"
+        android:text="---"
+        style="@style/Widget.MyApp.Button"
+        android:background="@drawable/roundedbutton"
+        />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/menu_button"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="63dp"
+        android:padding="10dp"
+        android:text="Auto"
+        android:textSize="20dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="20dp"
+        android:backgroundTint="@color/permission_button"
+        android:text="help"
+        android:id="@+id/help"/>
+</RelativeLayout>
+

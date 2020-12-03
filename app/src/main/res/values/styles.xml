@@ -1,0 +1,11 @@
+<resources>
+    <!-- Base application theme. -->
+
+    <style name="MyApp" parent="Theme.MaterialComponents">
+        <!-- ... -->
+    </style>
+
+    <style name="Widget.MyApp.Button" parent="Widget.MaterialComponents.Button">
+        <item name="backgroundTint">@color/permission_button</item>
+    </style>
+</resources>

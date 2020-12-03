@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorAccent">#03DAC5</color>
+
+        <color name="permission">#111112</color>
+        <color name="permission_icon">#FE4365</color>
+        <color name="permission_button">#FE4365</color>
+
+        <color name="first_slide_background">#FE4365</color>
+        <color name="first_slide_buttons">#000000</color>
+
+        <color name="second_slide_background">#121212</color>
+        <color name="second_slide_buttons">#FE4365</color>
+
+        <color name="third_slide_background">#009688</color>
+        <color name="third_slide_buttons">#121212</color>
+
+    <!--Splash Screen-->
+</resources>
